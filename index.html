@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Python Beginner Project</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .container {
+            background: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px #cccccc;
+        }
+
+        h1 {
+            color: #2563eb;
+        }
+
+        .project {
+            background: #eaf2ff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Python Beginner Project</h1>
+
+        <p>Calculator and Greeting Bot</p>
+
+        <div class="project">
+            <h2>Greeting Bot</h2>
+            <p>Asks the user's name and displays a personalized greeting.</p>
+        </div>
+
+        <div class="project">
+            <h2>Simple Calculator</h2>
+            <p>Performs addition, subtraction, multiplication and division.</p>
+        </div>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Thank you for visiting my Python project!";
+        }
+    </script>
+
+</body>
+</html>
